@@ -24,5 +24,17 @@ namespace ext
             {
                 return this->x * other.x + this->y * other.y;
             } 
+            Point& operator ++(){
+                this->x++;
+                this->y++;
+                return *this;
+            }
+            Point& operator --(){
+                this->x--;
+                this->y--;
+                return *this;
+            }
+
+            ~Point(){}
     };
 }
