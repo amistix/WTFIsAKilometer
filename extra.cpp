@@ -1,5 +1,11 @@
 namespace ext
 {
+    struct Hello
+    {
+        public: int rofls = sizeof(int);
+    };
+    
+
     class Point
     {
         public:
@@ -24,17 +30,25 @@ namespace ext
             {
                 return this->x * other.x + this->y * other.y;
             } 
-            Point& operator ++(){
+            Point& operator ++()
+            {
                 this->x++;
                 this->y++;
                 return *this;
             }
-            Point& operator --(){
+            Point& operator --()
+            {
                 this->x--;
                 this->y--;
                 return *this;
             }
+            int operator [](int index)
+            {
+                return this->arr[index];
+            }
 
             ~Point(){}
+        private:
+            int arr[4] {4,7,6,54};
     };
 }

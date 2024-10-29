@@ -13,5 +13,6 @@ int main(int argc, char** argv)
     --b;
     cout << a.x << "\t" << a.y << endl;
     cout << b.x << "\t" << b.y << endl;
+    cout << a[0] << endl;
     return 0;
 }
