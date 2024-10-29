@@ -14,5 +14,6 @@ int main(int argc, char** argv)
     cout << a.x << "\t" << a.y << endl;
     cout << b.x << "\t" << b.y << endl;
     cout << a[0] << endl;
+    cout << GetArr(a) << endl;
     return 0;
 }

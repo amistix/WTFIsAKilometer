@@ -1,1 +1,1 @@
-:)
+There is one thing I can do for them: it is to win and keep winning until I obtain my dream. My dream is already smeared with blood. I don’t regret, I don’t feel guilty, but I’d rather sacrifice myself than watch anymore innocent children die in the name of my dream.

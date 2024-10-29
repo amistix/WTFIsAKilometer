@@ -48,7 +48,14 @@ namespace ext
             }
 
             ~Point(){}
+
+            friend int GetArr(Point& p);
         private:
             int arr[4] {4,7,6,54};
     };
+
+    int GetArr(Point& p)
+    {
+        return p.x;
+    }
 }
